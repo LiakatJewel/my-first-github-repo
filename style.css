@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: rgb(57, 56, 56);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.logo-pic{
+    width: 120px;
+}
+.item{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: aqua;
+}
